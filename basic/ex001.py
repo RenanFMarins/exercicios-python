@@ -22,4 +22,3 @@ while True:
             print("Não é uma letra válida.")
     else:
         print("Por favor, digite apenas uma letra.")
-

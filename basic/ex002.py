@@ -1,4 +1,4 @@
-#imposto de renda
+# imposto de renda
 salario = float(input("Diga seu salario atual: "))
 if salario > 2000:
     inss = salario * 0.10
@@ -19,9 +19,10 @@ else:
         salario = salario * 1.25
     print("salario novo, com abono", salario)
 
-# converter numero flutuante em metros e converta o resultado em centimetros 
+# converter numero flutuante em metros e converta o resultado em centimetros
 metros = float(input("valor em metros: "))
 centimetros = metros * 100
 print(f"{metros:.2f} metros equivalem a {centimetros:.2f} centimetros")
-print("%4.2f" % metros, "metros equivalem a", "%4.2f" % centimetros, "centimetros")
+print("%4.2f" % metros, "metros equivalem a", "%4.2f" % centimetros,
+      "centimetros")
 print(metros, "metros equivalente a", centimetros, "centimetros")
